@@ -1,0 +1,13 @@
+name = "Wigxjpf"
+uuid = "af901252-fd8a-4391-8647-10b4fde07a1e"
+authors = ["Gabriel Wu <wuzihua@pku.edu.cn> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.6"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
