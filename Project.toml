@@ -3,6 +3,10 @@ uuid = "af901252-fd8a-4391-8647-10b4fde07a1e"
 authors = ["Gabriel Wu <wuzihua@pku.edu.cn> and contributors"]
 version = "0.1.0"
 
+[deps]
+Quadmath = "be4d8f0f-7fa4-5f49-b795-2f01399ab2dd"
+Wigxjpf_jll = "236017c9-faef-5401-ab52-d2664edfb5d0"
+
 [compat]
 julia = "1.6"
 
