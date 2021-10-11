@@ -8,6 +8,7 @@ Quadmath = "be4d8f0f-7fa4-5f49-b795-2f01399ab2dd"
 Wigxjpf_jll = "236017c9-faef-5401-ab52-d2664edfb5d0"
 
 [compat]
+Quadmath = "0.5"
 julia = "1.6"
 
 [extras]
