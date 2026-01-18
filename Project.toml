@@ -6,12 +6,20 @@ version = "0.2.0"
 [deps]
 Wigxjpf_jll = "236017c9-faef-5401-ab52-d2664edfb5d0"
 
+[weakdeps]
+Quadmath = "be4d8f0f-7fa4-5f49-b795-2f01399ab2dd"
+
+[extensions]
+WigxjpfQuadmathExt = "Quadmath"
+
 [compat]
-Wigxjpf_jll = ">=1.13.0"
-julia = "1.6"
+Quadmath = "0.5"
+Wigxjpf_jll = "1.13"
+julia = "1.9"
 
 [extras]
+Quadmath = "be4d8f0f-7fa4-5f49-b795-2f01399ab2dd"
 Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
 
 [targets]
-test = ["Test"]
+test = ["Test", "Quadmath"]
