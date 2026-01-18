@@ -1,13 +1,13 @@
 name = "Wigxjpf"
 uuid = "af901252-fd8a-4391-8647-10b4fde07a1e"
 authors = ["Gabriel Wu <wuzihua@pku.edu.cn> and contributors"]
-version = "0.1.0"
+version = "0.2.0"
 
 [deps]
 Wigxjpf_jll = "236017c9-faef-5401-ab52-d2664edfb5d0"
 
 [compat]
-Wigxjpf_jll = "1"
+Wigxjpf_jll = ">=1.13.0"
 julia = "1.6"
 
 [extras]
