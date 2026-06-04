@@ -1,6 +1,6 @@
 name = "Wigxjpf"
 uuid = "af901252-fd8a-4391-8647-10b4fde07a1e"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Gabriel Wu <wuzihua@pku.edu.cn> and contributors"]
 
 [deps]
@@ -13,7 +13,7 @@ Quadmath = "be4d8f0f-7fa4-5f49-b795-2f01399ab2dd"
 WigxjpfQuadmathExt = "Quadmath"
 
 [compat]
-Quadmath = "0.5, 1"
+Quadmath = "1"
 Wigxjpf_jll = "1.13"
 julia = "1.9"
 
